@@ -1,0 +1,4 @@
+node_modules/
+.mcpize/
+*.log
+.env

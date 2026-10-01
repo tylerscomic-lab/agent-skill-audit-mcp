@@ -1,0 +1,13 @@
+version: 1
+name: agent-skill-audit-mcp
+description: Security scanner for AI agent skills and config files (SKILL.md, CLAUDE.md, AGENTS.md, .mcp.json, settings.json). Finds hidden Unicode instructions, prompt injection, exfiltration commands and over-broad permissions before you install a skill.
+runtime: typescript
+entry: server.js
+build:
+  install: npm install
+startCommand:
+  type: http
+  command: node server.js
+  port: 8080
+  healthCheck: /health
+  mcpPath: /mcp

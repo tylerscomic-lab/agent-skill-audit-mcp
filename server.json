@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tylerscomic-lab/agent-skill-audit-mcp",
+  "title": "Agent Skill & Config Security Audit",
+  "description": "Scan AI agent skills and configs for hidden Unicode, prompt injection and exfiltration.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/tylerscomic-lab/agent-skill-audit-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent-skill-audit-mcp.mcpize.run/mcp"
+    }
+  ]
+}

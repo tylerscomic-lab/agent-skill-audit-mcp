@@ -1,0 +1,12 @@
+{
+  "name": "agent-skill-audit-mcp",
+  "version": "1.0.0",
+  "description": "Security audit for AI agent skills and config files (SKILL.md, CLAUDE.md, AGENTS.md, .mcp.json, settings.json): hidden Unicode instructions, prompt injection, exfiltration commands, over-broad permissions",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}
